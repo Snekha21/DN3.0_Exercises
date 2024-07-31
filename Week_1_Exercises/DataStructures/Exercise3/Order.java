@@ -1,4 +1,4 @@
-package DataStructures;
+package Exercise3;
 
 public class Order {
     private String orderId;

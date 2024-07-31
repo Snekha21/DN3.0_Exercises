@@ -1,4 +1,4 @@
-package DataStructures;
+package Exercise1;
 
 import java.util.HashMap;
 

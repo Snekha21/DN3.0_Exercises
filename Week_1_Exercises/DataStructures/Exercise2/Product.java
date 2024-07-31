@@ -1,4 +1,4 @@
-package DataStructures;
+package Exercise2;
 import java.io.*;
 import java.util.*;
 
