@@ -52,7 +52,7 @@ public class EmployeeController {
         return ResponseEntity.noContent().build();
     }
     
-    @GetMapping
+    @GetMapping("/api/employees/pageable")
     public Page<Employee> getEmployees(
         @PageableDefault(size = 10, sort = "name") Pageable pageable
     ) {

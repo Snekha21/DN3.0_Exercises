@@ -5,6 +5,8 @@ import com.example.EmployeeManagementSystem.model.Employee;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
+
 import com.example.EmployeeManagementSystem.projection.EmployeeProjection;
 import com.example.EmployeeManagementSystem.projection.CustomEmployeeProjection;
 
@@ -12,6 +14,8 @@ import com.example.EmployeeManagementSystem.projection.CustomEmployeeProjection;
 
 import java.util.List;
 import java.util.Optional;
+
+@Repository
 
 public interface EmployeeRepository extends JpaRepository<Employee, Long> {
 	
